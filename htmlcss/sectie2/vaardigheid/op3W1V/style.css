@@ -1,0 +1,76 @@
+*{
+margin: 0;
+font-family: fantasy;
+font-weight: 100;
+background-color: rgb(127, 136, 150);
+border: 10pt red;
+}
+
+#title{
+size: 350px;
+position: sticky;
+    letter-spacing: 3px;
+    padding: 15px;
+    padding-left: 700px;
+    padding-right: 700px;
+    color: black;
+    display: block;
+    margin: 5px;
+    text-decoration: none;
+    background:rgb(204, 204, 204);
+    border-radius: 1px;
+
+}
+
+p#p1{
+    text-align: justify;
+    position: absolute;
+top: 100px;
+left: 500px;
+
+}
+p#p2{
+    text-align: justify;
+    position: absolute;
+top: 500px;
+left: 500px;
+
+}
+
+p#p3{
+    text-align: justify;
+    position: absolute;
+top: 1000px;
+left: 500px;
+
+}
+
+img{
+size:100px;
+position: absolute;
+}
+
+img.hover-shadow {
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.2), 0 16px 120px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container{
+right: 500px;
+
+}
+
+#kapmes{
+   top: 500px;
+  width: 25%;
+  height: 25%;
+}
+
+#zwaard{
+  top: 1000px;
+ width: 25%;
+ height: 55%;
+}

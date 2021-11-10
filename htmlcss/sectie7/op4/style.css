@@ -1,0 +1,16 @@
+
+
+.flex-container {
+    border: 6px solid black;
+    height: 300px;
+    width: 600px;
+    display: flex;
+   flex-wrap: wrap;
+  }
+  
+  .flex-container > div {
+    border: 1px solid green;
+    width: 100px;
+    height: 150px;
+    
+  }

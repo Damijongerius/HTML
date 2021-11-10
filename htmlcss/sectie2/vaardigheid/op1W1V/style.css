@@ -1,0 +1,45 @@
+* {
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+padding: 0;
+margin: 0;
+}
+
+
+h1 {
+padding: 10;
+text-align: left;
+}
+
+#tijger{
+width: 20%;
+border-radius: 55%;
+height: 20%;
+}
+
+#text-tijger{
+    position: absolute;
+    top: 115px;
+    left: 305px;
+}
+
+#tijger2{
+    width: 20%;
+    border-radius: 55%;
+    height: 30%;
+    position: absolute;
+    top: 225px;
+    left: 0px
+    }
+    
+    #text-tijger2{
+        position: absolute;
+        top: 335px;
+        left: 305px;
+    }
+
+#link{
+ position: relative;
+ top: 250px;
+
+}

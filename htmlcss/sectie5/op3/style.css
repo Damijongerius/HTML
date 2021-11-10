@@ -1,0 +1,23 @@
+*{
+  
+ font-weight: 500;
+ letter-spacing: 25px;
+font-family: 'Courier New', Courier, ;
+color: coral;
+}
+
+.container{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+}
+
+.container2{
+    float: right;
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+

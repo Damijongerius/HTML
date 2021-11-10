@@ -1,0 +1,15 @@
+
+
+.flex-container {
+    display: flex;
+    border: 6px solid black;
+    height: 270px;
+    overflow:scroll;
+    width: 600px;
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    border: 1px solid green;
+    min-width: 100px;
+  }

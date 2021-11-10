@@ -1,0 +1,67 @@
+
+
+.main{
+    width: auto;
+    height: 700px;
+    background-color: bisque;
+    justify-content: stretch;
+    display: flex;
+    font-size: 70px;
+    flex-direction: column  ;
+   align-content: center;
+}
+
+.flexbox{
+    align-content: center;
+    justify-content: center;
+    align-self: center;
+    padding: 10px
+
+}
+
+.sub{
+    border: black 2px solid;
+    display: flex;
+    border-style: dashed;
+    width: auto;
+    height: 100%;
+    display: flex;
+    background-color: plum;
+    border-width: 5px;
+    margin: 10px;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+
+}
+
+.sub > div{
+    border: black 2px solid;
+    width: 48%;
+    margin:7px;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.container > div{
+    width: 97%;
+    border: blue 2px solid;
+    border-style: dotted;
+    height: 9%;
+    margin: 5px;
+    flex-direction: column;
+}
+
+p{
+    font-size: 10px;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    
+}
+
+p.purple{
+    background-color: magenta;
+
+}
+

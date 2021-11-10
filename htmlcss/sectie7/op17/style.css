@@ -1,0 +1,49 @@
+
+
+.flex-container {
+    border: 5px solid black;
+    height: 600px;
+    width: auto;
+    display: flex;
+   flex-wrap: wrap;
+   justify-content: stretch;
+
+  }
+  
+  .flex-container > div {
+    border: 1px solid green;
+    flex-grow: 1;
+    width: 19vw;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+@media screen and (max-width: 700px) {
+  .flex-container > div {
+    flex-basis: 100vw;
+    min-width: 600px;
+  }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 700px) {
+  .flex-container > div {
+    flex-basis: 30vw;
+  }
+}
+.flex1{
+ background-color: yellow;
+}
+
+.flex2{
+ background-color: red;
+}
+
+.flex3{
+ background-color: blue;
+}
+
+.flex4{
+ background-color: purple;
+}

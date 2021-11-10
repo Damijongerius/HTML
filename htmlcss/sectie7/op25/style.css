@@ -1,0 +1,43 @@
+
+
+.flex-container {
+    border: 5px solid black;
+    height: 600px;
+    width: 800px;
+    flex-direction: column-reverse;
+    display: flex;
+  }
+  
+  .flex-container > div {
+    border: 3px solid green;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 50px;
+  }
+
+.flex1{
+ background-color: yellow;
+ height:98px;
+ width: 30px;
+ align-self: flex-end;
+}
+
+.flex2{
+ background-color: red;
+ height: 150px;
+}
+
+.flex3{
+ background-color: blue;
+ height: 150px;
+ width: 100px;
+}
+
+.flex4{
+ background-color: purple;
+ height:10px;
+ width: 30px;
+ align-self: center;
+}

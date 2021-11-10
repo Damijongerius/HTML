@@ -1,0 +1,137 @@
+*{
+  background-color: palevioletred;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(6 , 1fr) ;
+    grid-template-rows: repeat(7, 1fr);
+    border: 2px solid ;
+    width: auto;
+    height: 700px;
+    background-color: palevioletred;
+    justify-content: space-evenly;
+    grid-auto-flow: dense;
+  }
+  .grid-container > div {
+    margin: 0px;
+    text-align: center;
+  }
+
+@media screen and (max-width:800px) and (min-width:500px) {
+  .grid-container{
+    grid-template-columns: repeat(4 , 1fr) ;
+    grid-template-rows: repeat(10, 1fr);
+  }
+}
+
+@media screen and (max-width:500px) and (min-width: 100px){
+  .grid-container{
+    grid-template-columns: repeat(3 , 1fr) ;
+    grid-template-rows: repeat(13, 1fr);
+  }
+}
+
+  .grid-item0{
+    background-color: PINK;
+
+  }
+
+  .grid-item1{
+    background-color: red;
+    grid-row: span 2;
+    grid-column: span 2;
+      }
+
+  .grid-item2{
+    background-color: blue;
+
+    }
+
+    .grid-item3{
+          background-color: purple;
+          grid-column: span 2;
+
+    }
+
+    .grid-item4{
+          background-color: lightblue;
+
+    }
+
+    .grid-item5{
+          background-color: green;
+          grid-column: span 3;
+
+    }
+
+    .grid-item6{
+        background-color: yellow;
+
+    }
+
+    .grid-item7{
+      background-color: pink;
+ 
+    }
+
+    .grid-item8{
+      background-color: red;
+      grid-column: span 2;
+      grid-row: span 2;
+ 
+    }
+
+    .grid-item9{
+      background-color: blue;
+ 
+    }
+
+    .grid-item10{
+      background-color: lightblue;
+
+    }
+
+    .grid-item11{
+      background-color: green;
+      grid-column: span 3;
+    }
+
+    .grid-item12{
+      background-color: purple;
+      grid-column: span 2;
+
+    }
+
+    .grid-item13{
+      background-color: yellow;
+ 
+    }
+
+    .grid-item14{
+      background-color: pink;
+
+    }
+
+    .grid-item15{
+      background-color: red;
+      grid-column: span 2;
+      grid-row: span 2;
+    }
+
+    .grid-item16{
+      background-color: blue;
+    }
+
+    .grid-item17{
+      background-color: purple;
+      grid-column: span 2;
+  
+    }
+
+    .grid-item18{
+      background-color: green;
+      grid-column: span 3;
+    }
+
+

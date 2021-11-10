@@ -1,0 +1,32 @@
+
+
+.flex-container {
+    border: 6px solid black;
+    height: 300px;
+    width: 600px;
+    display: flex;
+   flex-wrap: wrap;
+  }
+  
+  .flex-container > div {
+    border: 1px solid green;
+    width: 100px;
+    height: 150px;
+    
+  }
+
+.flex1{
+ background-color: yellow;
+}
+
+.flex2{
+ background-color: red;
+}
+
+.flex3{
+ background-color: blue;
+}
+
+.flex4{
+ background-color: purple;
+}

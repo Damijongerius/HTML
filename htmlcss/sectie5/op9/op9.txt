@@ -1,0 +1,1 @@
+via visual studio code een live server en met auto save update je live server elke seconde dus je ziet meteen alles wat je hebt gedaan
